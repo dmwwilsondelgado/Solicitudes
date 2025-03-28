@@ -1,9 +1,202 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Dylan Bravo",
+      "email": "dylan@gmail.com",
+      "phone": "3242940591",
+      "city": "Piedecuesta",
+      "documentType": "CC"
+    },
+    {
+      "id": 2,
+      "name": "Ana Pérez",
+      "email": "ana.perez@gmail.com",
+      "phone": "3123456789",
+      "city": "Bucaramanga",
+      "documentType": "TI"
+    },
+    {
+      "id": 3,
+      "name": "Carlos Martínez",
+      "email": "carlos.martinez@hotmail.com",
+      "phone": "3234567890",
+      "city": "Cúcuta",
+      "documentType": "TI"
+    },
+    {
+      "id": 4,
+      "name": "Laura García",
+      "email": "laura.garcia@gmail.com",
+      "phone": "3145678901",
+      "city": "Medellín",
+      "documentType": "CC"
+    },
+    {
+      "id": 5,
+      "name": "Pedro González",
+      "email": "pedro.gonzalez@yahoo.com",
+      "phone": "3156789012",
+      "city": "Bogotá",
+      "documentType": "TI"
+    },
+    {
+      "id": 6,
+      "name": "María Rodríguez",
+      "email": "maria.rodriguez@gmail.com",
+      "phone": "3167890123",
+      "city": "Cartagena",
+      "documentType": "CC"
+    },
+    {
+      "id": 7,
+      "name": "Luis Fernández",
+      "email": "luis.fernandez@hotmail.com",
+      "phone": "3178901234",
+      "city": "Cali",
+      "documentType": "CC"
+    },
+    {
+      "id": 8,
+      "name": "Sofía Ramírez",
+      "email": "sofia.ramirez@gmail.com",
+      "phone": "3189012345",
+      "city": "Barranquilla",
+      "documentType": "TI"
+    },
+    {
+      "id": 9,
+      "name": "José López",
+      "email": "jose.lopez@hotmail.com",
+      "phone": "3190123456",
+      "city": "Santa Marta",
+      "documentType": "CC"
+    },
+    {
+      "id": 10,
+      "name": "Verónica Díaz",
+      "email": "veronica.diaz@yahoo.com",
+      "phone": "3201234567",
+      "city": "Pereira",
+      "documentType": "CC"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Camiseta Deportiva",
+      "price": 79900,
+      "stock": 150,
+      "categoryId": 1,
+      "description": "Camiseta de algodón con secado rápido."
+    },
+    {
+      "id": 2,
+      "title": "Zapatillas de Running",
+      "price": 239900,
+      "stock": 120,
+      "categoryId": 1,
+      "description": "Zapatillas deportivas para correr."
+    },
+    {
+      "id": 3,
+      "title": "Reloj Digital",
+      "price": 159900,
+      "stock": 80,
+      "categoryId": 2,
+      "description": "Reloj digital resistente al agua."
+    },
+    {
+      "id": 4,
+      "title": "Auriculares Bluetooth",
+      "price": 199900,
+      "stock": 200,
+      "categoryId": 2,
+      "description": "Auriculares inalámbricos con cancelación de ruido."
+    },
+    {
+      "id": 5,
+      "title": "Mochila de Viaje",
+      "price": 159900,
+      "stock": 150,
+      "categoryId": 3,
+      "description": "Mochila con múltiples compartimentos."
+    },
+    {
+      "id": 6,
+      "title": "Cámara de Seguridad",
+      "price": 359900,
+      "stock": 75,
+      "categoryId": 4,
+      "description": "Cámara inalámbrica con visión nocturna."
+    },
+    {
+      "id": 7,
+      "title": "Laptop Gaming",
+      "price": 3999000,
+      "stock": 50,
+      "categoryId": 5,
+      "description": "Laptop con procesador i7 y tarjeta gráfica NVIDIA."
+    },
+    {
+      "id": 8,
+      "title": "Smartphone Android",
+      "price": 1199000,
+      "stock": 200,
+      "categoryId": 6,
+      "description": "Smartphone con cámara de 48MP."
+    },
+    {
+      "id": 9,
+      "title": "Bicicleta de Montaña",
+      "price": 1599900,
+      "stock": 40,
+      "categoryId": 3,
+      "description": "Bicicleta con suspensión completa."
+    },
+    {
+      "id": 10,
+      "title": "Silla Ergonómica",
+      "price": 449900,
+      "stock": 100,
+      "categoryId": 7,
+      "description": "Silla ergonómica ajustable para oficina."
+    }
+  ],
+  "categorys": [{
+      "id": 1,
+      "title": "Ropa Deportiva",
+      "description": "Ropa para deportes y actividad física."
+    },
+    {
+      "id": 2,
+      "title": "Tecnología",
+      "description": "Productos electrónicos como relojes y auriculares."
+    },
+    {
+      "id": 3,
+      "title": "Accesorios de Viaje",
+      "description": "Mochilas, bicicletas y accesorios para viajeros."
+    },
+    {
+      "id": 4,
+      "title": "Seguridad",
+      "description": "Cámaras y equipos para seguridad del hogar."
+    },
+    {
+      "id": 5,
+      "title": "Computadoras y Laptops",
+      "description": "Laptops y equipos de alto rendimiento para juegos."
+    },
+    {
+      "id": 6,
+      "title": "Smartphones",
+      "description": "Teléfonos inteligentes con tecnología avanzada."
+    },
+    {
+      "id": 7,
+      "title": "Mobiliario",
+      "description": "Sillas y muebles ergonómicos para oficina."
+    }
+  ]
+}
