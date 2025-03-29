@@ -2,27 +2,27 @@
   "users": [
     {
       "id": 1,
+      "name": "Wilson Delgado ",
+      "email": "wilsondelgadomoreno@gmail.com",
+      "phone": "3184423997",
+      "city": "Giron",
+      "documentType": "CC"
+    },
+    {
+      "id": 2,
+      "name": "lina Macias",
+      "email": "aledenith@gmail.com",
+      "phone": "3160445124",
+      "city": "Giron",
+      "documentType": "CC"
+    },
+    {
+      "id": 3,
       "name": "Dylan Bravo",
       "email": "dylan@gmail.com",
       "phone": "3242940591",
       "city": "Piedecuesta",
       "documentType": "CC"
-    },
-    {
-      "id": 2,
-      "name": "Ana Pérez",
-      "email": "ana.perez@gmail.com",
-      "phone": "3123456789",
-      "city": "Bucaramanga",
-      "documentType": "TI"
-    },
-    {
-      "id": 3,
-      "name": "Carlos Martínez",
-      "email": "carlos.martinez@hotmail.com",
-      "phone": "3234567890",
-      "city": "Cúcuta",
-      "documentType": "TI"
     },
     {
       "id": 4,
